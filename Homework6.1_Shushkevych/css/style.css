@@ -62,8 +62,21 @@ h3 {
     width: 25%;
     height: 420px;
 }
-.block h2 {
-    margin-top: 15px;
+.block:nth-child(1) h2 {
+    align-items: center;
+    margin-top: 50px;
+}
+.block:nth-child(2) h2 {
+    align-items: center;
+    margin-top: 50px;
+}
+.block:nth-child(3) h2 {
+    align-items: center;
+    margin-top: 66px;
+}
+.block:nth-child(4) h2 {
+    align-items: center;
+    margin-top: 62px;
 }
 .block img:nth-child(2) {
     display: none;
@@ -71,7 +84,6 @@ h3 {
 .block img:nth-child(1) {
     margin-left: 85px;
     padding-top: 20px;
-    margin-bottom: 63px;
 }
 .block:hover {
     color: white !important;
@@ -85,100 +97,10 @@ h3 {
     display: block;
     margin-left: 85px;
     padding-top: 20px;
-    margin-bottom: 63px;
-}
-.block:hover h2 {
-    padding-top: 18px;
 }
 .block:hover p {
     color: white;
 }
-/* .block2 {
-    padding-top: 58px;
-    width: 25%;
-    height: 420px;
+.block:hover h2 {
+    padding-top: 4px;
 }
-.block2 h2 {
-    margin-top: 15px;
-}
-.block2 img:nth-child(1) {
-    margin-left: 88px;
-    padding-top: 18px;
-    margin-bottom: 49px;
-}
-.block2 img:nth-child(2) {
-    display: none;
-}
-.block2:hover {
-    color: white !important;
-    background-color: #00B5B8;
-}
-.block2:hover img:nth-child(1) {
-    display: none;
-}
-.block2:hover img:nth-child(2) {
-    display: block;
-    margin-left: 85px;
-    padding-top: 20px;
-    margin-bottom: 49px;
-}
-.block3 {
-    padding-top: 58px;
-    width: 25%;
-    height: 420px;
-}
-.block3 h2 {
-    margin-top: 20px;
-    padding-top: 10px;
-}
-.block3 img:nth-child(1) {
-    margin-left: 83px;
-    margin-top: 20px;
-    margin-bottom: 63px;
-}
-.block3 img:nth-child(2) {
-    display: none;
-}
-.block3:hover {
-    color: white !important;
-    background-color: #00B5B8;
-}
-.block3:hover img:nth-child(1) {
-    display: none;
-}
-.block3:hover img:nth-child(2) {
-    display: block;
-    margin-left: 85px;
-    padding-top: 20px;
-    margin-bottom: 63px;
-}
-.block4 {
-    padding-top: 58px;
-    height: 420px;
-    width: 25%;
-}
-.block4 h2 {
-    margin-top: 20px;
-    padding-top: 5px;
-}
-.block4 img:first-child {
-    margin-left: 78px;
-    margin-top: 20px;
-    margin-bottom: 63px;
-}
-.block4 img:nth-child(2) {
-    display: none;
-}
-.block4:hover {
-    color: white !important;
-    background-color: #00B5B8;
-}
-.block4:hover img:nth-child(1) {
-    display: none;
-}
-.block4:hover img:nth-child(2) {
-    display: block;
-    margin-left: 85px;
-    padding-top: 20px;
-    margin-bottom: 63px;
-} */
