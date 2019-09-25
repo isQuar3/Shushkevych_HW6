@@ -30,9 +30,6 @@ p {
     padding-left: 15px;
     padding-right: 15px;
 }
-div p:hover {
-    color: white;
-}
 h2 {
     text-align: center;
     font-family: 'Montserrat', sans-serif;
@@ -58,37 +55,42 @@ h3 {
     display: flex;
     padding-top: 115px;
 }
-.block1 {
+.block {
+    box-sizing: border-box;
+    align-items: center;
     padding-top: 58px;
     width: 25%;
     height: 420px;
 }
-.block1 h2 {
+.block h2 {
     margin-top: 15px;
 }
-.block1 img:nth-child(2) {
+.block img:nth-child(2) {
     display: none;
 }
-.block1 img:nth-child(1) {
+.block img:nth-child(1) {
     margin-left: 85px;
     padding-top: 20px;
     margin-bottom: 63px;
 }
-.block1:hover {
+.block:hover {
     color: white !important;
     background-color: #00B5B8;
 }
 
-.block1:hover img:nth-child(1) {
+.block:hover img:nth-child(1) {
     display: none;
 }
-.block1:hover img:nth-child(2) {
+.block:hover img:nth-child(2) {
     display: block;
     margin-left: 85px;
     padding-top: 20px;
     margin-bottom: 63px;
 }
-.block2 {
+.block:hover p {
+    color: white;
+}
+/* .block2 {
     padding-top: 58px;
     width: 25%;
     height: 420px;
@@ -176,4 +178,4 @@ h3 {
     margin-left: 85px;
     padding-top: 20px;
     margin-bottom: 63px;
-}
+} */
